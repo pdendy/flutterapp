@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
   home: Home(),
+
 ));
 
 class Home extends StatelessWidget {
@@ -14,12 +15,34 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[600],
         ),
-        body: Center (
-            child: IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.settings),
-              color: Colors.grey,
-            ),
+        body: Center(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+              Text('Find Your Date!'),
+              Container(
+                child: Image.asset('assets/couple1.jpeg'
+                 ),
+              ),
+                Container(
+                  child: Image.asset('assets/couple2.jpeg'
+                  ),
+                ),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.home_outlined),
+                color: Colors.black,
+              ),
+            ],
+          ),
+        ),
+          // Center (
+          //     child: IconButton(
+          //       onPressed: () {},
+          //       icon: Icon(Icons.settings),
+          //       color: Colors.grey,
+          //     ),
           // child: ElevatedButton(
           //   onPressed: () {
           //     print('you clicked me');
@@ -27,18 +50,13 @@ class Home extends StatelessWidget {
           //   child: Text('click me'),
           //   color: Colors.grey,
           // ),
-          // Icon(
-          //   Icons.home_outlined,
-          //   color: Colors.black,
+
           // ),
-          // Image.asset('assets/couple1.jpeg'
-          // ),
-        ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {  },
-          child: Text('+'),
-          backgroundColor: Colors.red[600],
-        ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {  },
+            child: Text('+'),
+            backgroundColor: Colors.red[600],
+          ),
     );
   }
 }
