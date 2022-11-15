@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/patiencedendy/Documents/skillstorm/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/patiencedendy/Documents/GitHub/flutterapp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/patiencedendy/Documents/skillstorm/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/patiencedendy/Documents/GitHub/flutterapp/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
